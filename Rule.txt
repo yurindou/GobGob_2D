@@ -1,0 +1,21 @@
+
+[Goblet Gobblers]
+
+This is a new type of Tic Toc Toe.
+I reproduct the board game on the browser, 
+so this is not my original game.
+
+[Rule]
+This is similar to normal TicTocToe, but this 
+game has pieces which is different size: small, 
+midium, large. 
+As you might expect, you can put a larger sized piece on smaller one and you can pick up  a
+ piece from the board.
+And, the player who made winning line will
+be winner.
+
+[Caution]
+When you pick up a piece from the board 
+and the winning line is completed at the 
+moment, the player whose pieces make 
+the winning line is winner.

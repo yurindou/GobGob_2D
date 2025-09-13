@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+#app {
+    text-align: center;
+}
+.cell {
+    border: 1px solid #555;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.cell:hover {
+    background-color: #e5fffe;
+}
+.win {
+    background-color: #bcf68d;
+}
+#side {
+    border: 1px solid #555;
+    margin-top: 2%;
+    justify-items: center;
+}
+.piece-area {
+    float: left;
+}
+.select-area{
+    float: right;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.piece {
+    border: 1px solid #555;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.piece:hover {
+    background-color: #e5fffe;
+}
+.select {
+    border: 1px solid #555;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 5%;
+    justify-self: center;
+}
+.opp {
+    border: 1px solid #555;
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+}
+.deactive {
+    background-color: #555;
+}
